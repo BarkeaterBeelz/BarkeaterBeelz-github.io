@@ -7,92 +7,91 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #e8f5e9;
+            background-color: #eaf4e1;
+            color: #2e4a26;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #388e3c;
-            color: white;
+            background-color: #4b8f29;
             padding: 20px;
             text-align: center;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
         }
         nav {
-            display: flex;
-            justify-content: center;
-            background-color: #2e7d32;
+            background-color: #6cb754;
+            padding: 10px;
+            text-align: center;
         }
         nav a {
+            margin: 0 15px;
             color: white;
-            padding: 14px 20px;
             text-decoration: none;
-            text-align: center;
+            font-size: 1.2em;
         }
-        nav a:hover {
-            background-color: #1b5e20;
-        }
-        section {
+        .content {
             padding: 20px;
         }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            border-bottom: 2px solid #6cb754;
+            padding-bottom: 5px;
+        }
         footer {
-            background-color: #388e3c;
-            color: white;
+            background-color: #4b8f29;
             text-align: center;
             padding: 10px;
+            color: white;
             position: fixed;
             width: 100%;
             bottom: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
-        .game {
-            margin-bottom: 20px;
-        }
-        .game img {
-            max-width: 100%;
-        }
-        .game h3 {
-            color: #2e7d32;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Barkeater Studio</h1>
-        <p>Creating immersive indie games inspired by nature</p>
+        <p>Creating Nature-Inspired Indie Games</p>
     </header>
     <nav>
-        <a href="#about">About Us</a>
-        <a href="#games">Our Games</a>
-        <a href="#blog">Blog</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact</a>
     </nav>
-    <section id="about" class="container">
-        <h2>About Us</h2>
-        <p>Barkeater Studio is an indie game development company dedicated to creating immersive and captivating games inspired by the beauty and serenity of nature. Our team is passionate about bringing unique gaming experiences to players around the world.</p>
-    </section>
-    <section id="games" class="container">
-        <h2>Our Games</h2>
-        <div class="game">
-            <h3>Forest Adventures</h3>
-            <img src="forest_adventures.jpg" alt="Forest Adventures">
-            <p>Embark on a thrilling journey through enchanted forests and discover hidden secrets in our flagship game, Forest Adventures.</p>
+    <div class="content">
+        <div id="about" class="section">
+            <h2>About Us</h2>
+            <p>Barkeater Studio is a passionate indie game development team focused on creating immersive, nature-inspired games. Our mission is to bring the beauty of nature into the digital world, crafting unique and engaging experiences for players.</p>
         </div>
-        <div class="game">
-            <h3>Mountain Quest</h3>
-            <img src="mountain_quest.jpg" alt="Mountain Quest">
-            <p>Challenge yourself in the rugged terrain of Mountain Quest, where only the bravest adventurers can conquer the peaks.</p>
+        <div id="portfolio" class="section">
+            <h2>Our Portfolio</h2>
+            <p>Here are some of the games we've developed:</p>
+            <ul>
+                <li><strong>Forest Quest:</strong> An adventurous journey through a mystical forest.</li>
+                <li><strong>Eco Warriors:</strong> A strategy game where players protect the environment.</li>
+                <li><strong>Nature's Melody:</strong> A relaxing puzzle game inspired by the sounds of nature.</li>
+            </ul>
         </div>
-    </section>
-    <section id="blog" class="container">
-        <h2>Blog</h2>
-        <p>Welcome to our blog! Here, we share insights into our development process, updates on our latest projects, and stories from the world of indie game development.</p>
-    </section>
-    <section id="contact" class="container">
-        <h2>Contact Us</h2>
-        <p>Have questions or want to get in touch? Reach</p>
-    </section>
+        <div id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us at:</p>
+            <p>Email: barkeaterbeelz@gmail.com</p>
+            <p>Follow us on social media:</p>
+            <p>
+                <a href="https://twitter.com/barkeaterstudio" target="_blank">Twitter</a> |
+                <a href="https://facebook.com/barkeaterstudio" target="_blank">Facebook</a> |
+                <a href="https://instagram.com/barkeaterstudio" target="_blank">Instagram</a>
+            </p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Barkeater Studio. All rights reserved.
+    </footer>
 </body>
 </html>
